@@ -10,7 +10,7 @@ I Sit tibi chare placens,
 K Non detrectabis,
 L Promptus, Amice, velis, 
 M Te mora nulla liget,
- N Haud erit ingratum, 
+N Haud erit ingratum, 
 O Ne grave fit, quæfo, 
 P. Dignare, obteftor, 
 Q Haud, credo renues, 
@@ -18,9 +18,9 @@ R Non tibi difpliceat,
 S Ne tibi difpliceat, 
 T Præfes Apollo jubet, 
 V Pieris alma jubet,
- W Te mandat Phoebus, 
+W Te mandat Phoebus, 
 X Sponte tua cupies,
- Z Spero, non renues, 
+Z Spero, non renues, 
 
 A chartæ perfringere gemmam, 
 B fua vincula demere chartæ, 
@@ -69,6 +69,7 @@ V E fortunatis,
 W Neutiquam ab ignotis, 
 X Ex non ignotis, 
 Z Ex non ingratis, 
+
 A Scribitur illa plagis 
 B mittitur illa plagis 
 C advenit illa plagis 
@@ -76,7 +77,8 @@ D devenit illa plagis.
 E prodiit illa plagis 
 F hanc tibi mitto plagis 
 G & ea miffa plagis 
-H & ea fcripta plagis I crede, venire plagis 
+H & ea fcripta plagis 
+I crede, venire plagis 
 K dat tibi penna plagis, 
 L tractibus illa venit
 M partibus illa venit 
