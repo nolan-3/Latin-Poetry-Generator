@@ -1,0 +1,20 @@
+Commands run: 
+  python3 install flask    - didn't work
+    WARNING: The script flask is installed in '/Users/nolan/Library/Python/3.9/bin' which 
+    is not on PATH. Consider adding this directory to PATH or, if you prefer to suppress this warning, 
+    use --no-warn-script-location.
+
+
+  sudo python3 -m pip install virtualenv        - did work
+    WARNING: The directory '/Users/nolan/Library/Caches/pip' or its parent directory is not
+    owned or is not writable by the current user. The cache has been disabled. Check the 
+    permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+
+    WARNING: Running pip as the 'root' user can result in broken permissions and conflicting 
+    behaviour with the system packagemanager. It is recommended to use a virtual environment 
+    instead: https://pip.pypa.io/warnings/venv
+
+
+to pass data to html template:
+in render_template second argument something like number = 9
+in html access that data with the syntax {{ number }}
