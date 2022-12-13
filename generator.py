@@ -1,4 +1,7 @@
 from newFile import table
+import random
+import string
+
 # letters not included in the lookup table: j, u, y
 def generate(message):
     message = message.lower().strip()
@@ -40,5 +43,9 @@ def generate(message):
                 #print(halfLine + " ", end='')
                 endOfLine = True
             charNum += 1
+    if(endOfLine):
+        dictNum = charNum % numOfDicts
+        char = random.choice(string.ascii_letters)
+        poem += table[dictNum][char]
     print(poem)
     return poem
