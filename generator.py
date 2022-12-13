@@ -1,9 +1,5 @@
 from newFile import table
 # letters not included in the lookup table: j, u, y
-
-
-#message = input('to what message would you like to generate a poem?\n').lower().strip()
-
 def generate(message):
     message = message.lower().strip()
     poem = ''
@@ -31,8 +27,8 @@ def generate(message):
         char = message[i]
         #if message length > number of dictionaries, recycle them
         dictNum = charNum % numOfDicts
-        #isalpha shouldl be a temporary solution
-        if char.isalpha():
+        #isalpha() isn't necessary but its a nice tool to have
+        if char.isalpha() and ord(char) >= 97 and ord(char) <= 122:
             halfLine = table[dictNum][char]
             #print a new line if at the end of a line of latin
             if(endOfLine):
