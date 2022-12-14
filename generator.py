@@ -2,7 +2,7 @@ from newFile import table
 import random
 import string
 
-# letters not included in the lookup table: j, u, y 
+# letters not included in the lookup table: j, u, y  
 def generate(message):
     message = message.lower().strip()
     poem = ''
@@ -45,7 +45,7 @@ def generate(message):
             charNum += 1
     if(endOfLine):
         dictNum = charNum % numOfDicts
-        char = random.choice(string.ascii_letters)
+        char = random.choice(string.ascii_letters).lower()
         poem += table[dictNum][char]
     print(poem)
     return poem
