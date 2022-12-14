@@ -2,7 +2,7 @@ from newFile import table
 import random
 import string
 
-# letters not included in the lookup table: j, u, y
+# letters not included in the lookup table: j, u, y 
 def generate(message):
     message = message.lower().strip()
     poem = ''
