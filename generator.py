@@ -2,6 +2,17 @@ from newFile import table
 import random
 import string
 
+def checkLetter(letter):
+
+    if letter == 'j':
+            letter = 'i'
+    elif letter == 'u':
+            letter = 'v'
+    elif letter == 'y':
+            letter = 'z'
+    return letter
+
+
 # letters not included in the lookup table: j, u, y  
 def generate(message):
     message = message.lower().strip()
@@ -15,14 +26,7 @@ def generate(message):
     #eliminate letters not included in the table
     tempString = ''
     for i in range(0, len(message)):
-        if message[i] == 'j':
-            tempString += 'i'
-        elif message[i] == 'u':
-            tempString += 'v'
-        elif message[i] == 'y':
-            tempString += 'z'
-        else:
-            tempString += message[i]
+        tempString += checkLetter(message[i])
     message = tempString
 
 
@@ -46,6 +50,6 @@ def generate(message):
     if(endOfLine):
         dictNum = charNum % numOfDicts
         char = random.choice(string.ascii_letters).lower()
+        char = checkLetter(char)
         poem += table[dictNum][char]
-    print(poem)
     return poem

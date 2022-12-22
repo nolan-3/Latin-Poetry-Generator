@@ -9,17 +9,30 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>About</title>
 </head>
-<body class="p-3 mb-2 bg-info text-light">
-        <div class="d-flex justify-content-center mb-2 bg-primary text-light" >
+<body class="p-3 mb-2 green">
+        <div class="d-flex justify-content-center mb-2 text-dark" >
             <div>
                 <span style="white-space: pre-line">
-                This program was created by me!
+                This project was created using data from "Stegonometrographia" by Melchias Uken. It was originally 
+                a way to send messages encoded as Latin poems. In this website it has been repurposed to work in reverse,
+                Generating a poem based on a message input. Each letter in the input corresponds to a half line of Latin
+                poetry.
+
                 </span>
             </div>
         </div>
-        <button class="btn btn-success" type="button"
-                onclick="window.location.href = 'https://nolan3.pythonanywhere.com/';">
-             Home
-        </button>
+        <div class="d-flex justify-content-center">
+            <form method="post">
+            <button class="btn btn-primary mt-4" type="submit" >
+            Home
+            </button>
+            </form>
+        </div>
 </body>
 </html>
+
+<style>
+    .green{
+        background-color: chartreuse;
+    }
+</style>

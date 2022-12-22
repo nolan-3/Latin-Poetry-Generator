@@ -21,6 +21,13 @@ def poemDisplay():
     if request.method == "POST":
         return redirect('/')
 
+@app.route('/about', methods = ["GET", "POST"])
+def about():
+    if request.method == "GET":
+        return render_template("about.html")
+    if request.method == "POST":
+        return redirect('/')
+
 
 if __name__ == '__main__':
         app.run(debug=True, port = 8000)

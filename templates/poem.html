@@ -9,8 +9,8 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Your Poem</title>
 </head>
-<body class="p-3 mb-2 bg-info text-light">
-        <div class="d-flex justify-content-center mb-2 bg-primary text-light" >
+<body class="p-3 mb-2 bg-info">
+        <div class="d-flex justify-content-center mb-2 text-dark" >
             <div>
                 <span style="white-space: pre-line">
                 {{ poem }}
@@ -24,9 +24,22 @@
             </button>
         </form>
         </div>
-        <button class="btn btn-success" type="button"
-                onclick="window.location.href = 'https://nolan3.pythonanywhere.com/about';">
-             About
-        </button>
+
+
+        <a href= ./about >
+            <button class="btn btn-primary bottom" type="button">
+                       About
+            </button>
+           </a>
+
+
 </body>
 </html>
+
+<style>
+    .bottom {
+                position: absolute;
+                bottom: 0px;
+            }
+</style>
+
