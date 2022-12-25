@@ -36,13 +36,13 @@ def christmas():
         clue = ""
         name = request.form.get("praenomen")
         name = name.strip().lower()
-        if(name == 'erin'):
+        if('eja agedum' in name):
             clue = "A speaker in a high up place (but not the ceiling!)"
-        elif(name == 'colin'):
+        elif('diva thalia jubet' in name):
             clue = "A fish tank?"
-        elif(name == 'donna'):
+        elif('docta thalia jubet' in name):
             clue = "A dangerous place to retrieve ping pong balls"
-        elif(name == 'sean'):
+        elif('ne tibi difpliceat' in name):
             clue = "This old communication method has recently been in high demand"
         return render_template("christmas.html", clue = clue)
 
