@@ -2,6 +2,7 @@ from newFile import table
 import random
 import string
 
+#replaces letters not included in the lookup table: j, u, y  
 def checkLetter(letter):
 
     if letter == 'j':
@@ -13,7 +14,6 @@ def checkLetter(letter):
     return letter
 
 
-# letters not included in the lookup table: j, u, y  
 def generate(message):
     message = message.lower().strip()
     poem = ''
@@ -47,6 +47,7 @@ def generate(message):
                 #print(halfLine + " ", end='')
                 endOfLine = True
             charNum += 1
+    #make sure the final line is complete
     if(endOfLine):
         dictNum = charNum % numOfDicts
         char = random.choice(string.ascii_letters).lower()
