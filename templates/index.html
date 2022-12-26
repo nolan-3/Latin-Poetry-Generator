@@ -18,22 +18,24 @@
                 <input name="text" autocomplete="off">
             </div>
             <div class="d-flex justify-content-center">
-                <button class="btn btn-primary mt-4" type="submit" >
-                Generate Poem!
+                <button class="btn btn-primary mt-4" type="submit">
+                    Generate Poem
                 </button>
-                <a href= ./christmas>
-                    <button class="btn btn-success bottom" type="button">
-                               Christmas Special!
-                    </button>
-                   </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button onclick="randomPoem()" class="btn btn-primary mt-4" type="button">
+                    Random Poem
+                </button>
             </div>
          </form>
     </div>
+
     <a href= ./about>
-     <button class="btn btn-primary bottom" type="button">
+        <button class="btn btn-success bottom" type="button">
                 About
-     </button>
+        </button>
     </a>
+
 </body>
 </html>
 
@@ -41,5 +43,20 @@
     .bottom {
                 position: absolute;
                 bottom: 0px;
+                left: 0px;
             }
 </style>
+<script>
+    function randomPoem(){
+        alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n',
+                    'o','p','q','r','s','t','u','v','w','x','y','z']
+        length = 2 + (Math.random() * 35)
+        string = ''
+        for(let i = 0; i < length; i++){
+            //index is a random number times the length of the alphabet - 1
+            string += alphabet[parseInt(Math.random()*25)]
+        }
+        address = "/poem?poem=" + string
+        window.location.replace(address);
+    }
+</script>
