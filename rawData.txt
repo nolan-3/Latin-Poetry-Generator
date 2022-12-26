@@ -4,19 +4,19 @@ C Diva Thalia jubet,
 D Docta Thalia jubet, 
 E Eja agedum! Lubeat,
 F Quod peto, sponte voles,
-G Quod precor, ipfe voles, 
+G Quod precor, ipse voles, 
 H Ne dedigneris, 
 I Sit tibi chare placens,
 K Non detrectabis,
 L Promptus, Amice, velis, 
 M Te mora nulla liget,
-N Haud erit ingratum, 
-O Ne grave fit, quæfo, 
-P Dignare, obteftor, 
+ N Haud erit ingratum, 
+O Ne grave fit, quæso, 
+P Dignare, obtestor, 
 Q Haud, credo renues, 
-R Non tibi difpliceat, 
-S Ne tibi difpliceat, 
-T Præfes Apollo jubet, 
+R Non tibi displiceat, 
+S Ne tibi displiceat, 
+T Præses Apollo jubet, 
 V Pieris alma jubet,
  W Te mandat Phoebus, 
 X Sponte tua cupies,
@@ -25,30 +25,30 @@ X Sponte tua cupies,
 A chartæ perfringere gemmam, 
 B fua vincula demere chartæ, 
 C tectis admittere chartam, 
-D præfentem evolvere chartam, 
+D præsentem evolvere chartam, 
 E peregrinam evolvere chartam,
  F concedere lumina chartæ, 
 G percurrere lumine chartam, 
-H noftram acceptare tabellam, 
+H nostram acceptare tabellam, 
 I chartæ perfringere ceram, 
-K chartam luftrare legendo, 
-L luftrare hanc lumine chartam, 
-M luftrare legendo tabellam,
+K chartam lustrare legendo, 
+L lustare hanc lumine chartam, 
+M lustare legendo tabellam,
  N fua vincula tollere chartæ, 
 O vúltum concedere chartæ,
 P valtum indulgere tabellæ, 
-Q fua vincula folvere chartae, 
+Q fua vincula solvere chartae, 
 R quam cernis volvere chartam, 
 S fua vincula rumpere chartae,
 T peregrinam volvere chartam, 
-V noftræ dare lumina chartæ, 
+V nostræ dare lumina chartæ, 
 W fua tollere vincula tabellæ, 
 X concedere limina chartæ, 
-Z præfentem volvere chartam, 
+Z præsentem volvere chartam, 
 
 A Non ex ignotis, 
 B Non ex ingratis, 
-C Non ex Odryfiis, 
+C Non ex Odrysiis, 
 D Non ex barbaricis, 
 E Non ex Sarmaticis, 
 F E tibi jucundis, 
@@ -58,8 +58,8 @@ I Ex tibi dilectis,
 K: E tibi ter charts, 
 L Ex tibi pergratis; 
 M Ex tibi fat notis, 
-N Non ex infauftis, 
-O Non ex invifis, 
+N Non ex infaustis, 
+O Non ex invisis, 
 P Non ex Iliacis, 
 Q Non ex fædifragis,
 R a tibi dilectis,
@@ -69,25 +69,315 @@ V E fortunatis,
 W Neutiquam ab ignotis, 
 X Ex non ignotis, 
 Z Ex non ingratis, 
+
 A Scribitur illa plagis 
 B mittitur illa plagis 
 C advenit illa plagis 
-D devenit illa plagis. 
+D devenit illa plagis
 E prodiit illa plagis 
 F hanc tibi mitto plagis 
-G & ea miffa plagis 
-H & ea fcripta plagis I crede, venire plagis 
+G & ea misa plagis 
+H & ea scripta plagis 
+I crede, venire plagis 
 K dat tibi penna plagis, 
 L tractibus illa venit
 M partibus illa venit 
-N fedibus illa venit 
-O finibus illa venit 
+N sedibus illa venit 
+O sinibus illa venit 
 P scribitur illa locis 
 Q mittitur illa locis 
 R advenit illa locis 
-S devenit illa locis 
-T prodiit illa locis 
-V hanc tibi mitto locis 
-W est ea miffa locis. 
-X est ea scripta locis 
-Z hanc tibi scribo Locis
+ S devenit illa locis 
+ T prodiit illa locis 
+ V hanc tibi mitto locis 
+ W est ea missa locis
+ X est ea scripta locis 
+ Z hanc tibi scribo Locis
+
+A Non tibi satales 
+B Non tibi funereos 
+C Non tibi bellicrepos 
+D Non infelices 
+E Non importunos
+F Non conclamatos 
+G Non ærumnosos
+H Non portentosos 
+I Non tibi terrificos 
+K Non tibi satidicos 
+L Non injucundos 
+M Non tibi mortiferos 
+N Non tibi funestos 
+O Non tibi damniseros 
+P Non tibi damnosos 
+Q Non tibi ferales
+R Non tibi præproperos
+S Non tibi luctisonos 
+T Non tibi terribiles 
+V Non tibi secretos 
+W Non plorabundos 
+X Non infestivos 
+Z Non inpermissos 
+
+A depinget epistola questus 
+B depinget epistola casus 
+C evolvet epistola questus 
+D evolver epistola casus 
+E describet epistola questus
+F describet epistola casus 
+G narrabit epistola questus 
+H narrabit epistola casus 
+I memorabit epistola questus 
+K memorabit epistola casus 
+L exponet epistola casus 
+M exponet epistola questus 
+N effundet epistola questus 
+O effundet epistola casus 
+P mea narrat epistola questus 
+Q mea narrat epistola casus 
+R mea pandet epistola questus 
+S mea pandet epistola casus 
+T referet mea littera questus 
+V referet mea littera casus 
+W pandet mea littera questus
+ X depinget littera casus 
+Z describet littera questus 
+
+A Mentis delicias 
+B causas lætitiæ 
+C lætitiæ causas 
+D luctu delicias 
+E Cordis lætitias 
+F Delicias animi 
+G Delicias luctu 
+H lætitias animi 
+I lætitias mentis 
+K Cordis delicias 
+L sanas delicias 
+M sanctas delicias 
+N Delicias animæ 
+O Cellæ delicias 
+P Delicias lachrymis 
+Q lætitias luctu  
+R Pacis delicias 
+S Sanctas illecebras 
+T Præfica lætitias 
+V tristis delicias 
+W castas illecebras 
+X Tristibus illecebras  
+Z Delicias pacis 
+
+A curat & illa tuas
+B servat & illa tuas
+C tollat ut illa tuas
+D non vetat illa tuas
+E solvat ut illa tuas
+F sternat ut illa tuas
+G non necat illa tuas
+H diligit illa tuas
+I demat ut illa tuas
+K perdat ut illa tuas
+L non ego tollo tuas
+M non ego turbo tuas
+N non ego pello tuas
+O pellat ut illa tuas
+P non rapit illa tuas
+Q deperit ipsa tuas
+R nam fovet ipsa tuas
+S frangat ut illa tuas
+T rumpat ut illa tuas
+V pulset ut illa tuas
+W dejiciendo tuas
+X non ego demo, tuas
+Z fors remorando tuas
+
+A Arx est nota tibi 
+B grata tibi domus est 
+C sat tibi nota domus 
+D est tibi nota domus 
+E est tibi grata domus 
+F est tibi chara domus 
+G Nota tibi domus est 
+H est bene nota domus 
+I chara tibi domus est 
+K nota est aula tibi 
+L aula tibi nota est 
+M ædes chara tibi est 
+N ædes nota tibi est 
+O cognita sat domus est 
+P  est mea nota domus 
+Q est sat nota domus 
+R Patria nota tibi est 
+S Nota tibi patria est 
+T nostra domus nota est 
+V Cognita nostra domus 
+W est dilecta domus 
+X est peramata domus 
+Z Non domus exosa est 
+
+A nec nomina nostra requires
+B quæ talia vidit arantem 
+C quæ carmina vidit arantem 
+D notus tibi carminis author 
+E qua Vates Incola vivit 
+F qua Vates prodiit olim 
+G quæ nostro carmine gaudet 
+H quæ te veneratur, & audit 
+I notus, quem diligis, author 
+K quæ pro te metra paravit 
+L notus, qui scribit, amicus 
+M qui scripsit, notus amicus 
+N charus, qui carmine ludit, 
+O gratus, qui metra paravit
+P  multo fum cognitus ufu, 
+Q multos tibi culta per annos 
+R chari, gratique fodalis, 
+S qua degit carminis author 
+T qua præsens littera prodit 
+V qua dulcis epistola venit 
+W chari, gratique penates 
+X scribentis stemma, manusque 
+Z scriptoris dextra, genusque 
+
+A Tu mihi pars cordis 
+B tu mihi præsidium
+C semper eras Tutor 
+D semper eras Ductor, 
+E semper eras Pylades 
+F Tu mihi cordis amor 
+G tu mihi cor cordis 
+H Tu mihi dulcis amor 
+I semper Nisus eras 
+K Tu mihi Patronus 
+L Tu mihi Mecenas 
+M Tu mihi Protector 
+N Tu tutela mihi 
+O Tu grandis Fautor 
+P Tu Benefactor eras 
+Q Auxilio fueras 
+R Præsidium fueras 
+S Patronus mihi tu 
+T Tu mihi solamen 
+V Mecænas fueras 
+W Ductor semper eras
+ X Te colo fautorem, 
+Z Te colo Patronum 
+
+A Deliciæque mex 
+B Gloria quanta mihi! 
+C Numinis ecce favor 
+D Dux meus, alter ego 
+E Theseus, alter ego 
+F Duxque, salusque meis 
+G Duxque, salusque mihi 
+H Spes mea, dulce decus 
+I Lux mea, dulce decus 
+K Lux mea, dextra mihi 
+L gratia summa mihi 
+M perge manere, precor 
+N quod mihi nemo neget 
+O quis neget ista mihi? 
+P magne repende Deus! 
+Q quod benefacta notant 
+R debeo cuncta tibi 
+S quod mea Musa canit 
+T quod mea Musa canet 
+V tempus in omne mane 
+W non ego dignus eram 
+X talis & usque mane 
+Z perge favere precor 
+
+A Justitiam sequeris 
+B Virtutem sequeris 
+C sectaris Themidem 
+D Tu recti custos 
+E Justitiam observas 
+F Tu candoris amans 
+G Justitiam servas
+ H Non nisi justa facis 
+I Cuique suum tribuis 
+K Jura tueris amans 
+L Grandia facta geris 
+M Consilio gravis es 
+N Majestate vales 
+O Consilio polles 
+P Polles consilio 
+Q Eloquio prestas 
+R Judicio polles 
+S Judicio prestas 
+T Polles ingenio 
+V Ingenio prestas 
+W Laudari refugis 
+X Non tibi laudis amor 
+Z laudari renuis. 
+
+A magna probitate coruscas 
+B multa pietate coruscas 
+C famæ mendacia rides
+D legum nec amantior alter 
+E pietatis idoneus author 
+F nulli pietate secundus 
+G pietatem pectore spiras 
+H solidæ pietatis alumnus 
+I tibi Christi nomen amori 
+K pietas tibi plurima cordi 
+L pietas te laudibus ornat 
+M sanctæ pietatis imago es 
+N probitatis laude coruscas 
+O pietas te nutrit alumnum 
+P servas mandata Tonantis 
+Q totusque â Numine pendes 
+R tibi mens sapit integra colum 
+S pietas tibi maxima rerum 
+T pietas tibi pectore fixa est 
+V vera pietate coruscas 
+W concludis pectore cœlum 
+X probitas te gaudet alumno 
+Z pietas te gaudet Achate 
+
+A Haud te noxa premit
+B Indolis es placidæ 
+C Non vitiis traheris 
+D Criminis innocuus 
+E Numine digna sapis 
+F Exemplar morum es 
+G Grande decus patriæ es 
+H Integer es vitæ 
+I Es purus sceleris 
+K Expers tu sceleris 
+L Cedro digna geris 
+M Marmore digna geris 
+N Cunctis diligeris 
+O Te genus exornat 
+P Diligeris cunctis 
+Q Devincis cunctos 
+R Magnus in adversis 
+S Castior Hippolito es 
+T Quantum animo prestas! 
+V Fortior adversis 
+W Quis te digna canet? 
+X Vis generosa tibi 
+Z Excellis cunctos 
+
+A Spes tua sola Deus 
+B Candida corda geris 
+C Lactea corda geris 
+D Corda pudica geris 
+E Cor patientis habes 
+F Non tibi nota Venus 
+G Quot tibi mentis opes! 
+H pectore fucus abest 
+I sidera mente geris 
+K fors bona semper amet!
+L semper ad alta volas 
+M celsius ire nequis 
+N nomen ad astra vehis
+O mens tibi casta placet
+P mens tibi pura placer 
+Q fama perennis erit
+R non tibi parca manus
+S quam tibi larga manus
+T non tibi fastus inest 
+V te Cytherea fugit 
+W spes tua tota Deus 
+X  mens animosa tibi 
+Z Dona quot alma tibi!
