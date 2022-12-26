@@ -13,7 +13,7 @@ def home():
         return redirect(url_for('poemDisplay', poem=poem))
 
 
-@app.route('/poemDisplay', methods = ["GET", "POST"])
+@app.route('/poem', methods = ["GET", "POST"])
 def poemDisplay():
     if request.method == "GET":
         poem = request.args.get('poem', None)
@@ -28,23 +28,6 @@ def about():
     if request.method == "POST":
         return redirect('/')
 
-@app.route('/christmas', methods = ["GET", "POST"])
-def christmas():
-    if request.method == "GET":
-        return render_template("christmas.html", clue = "")
-    elif request.method == "POST":
-        clue = ""
-        name = request.form.get("praenomen")
-        name = name.strip().lower()
-        if('eja agedum' in name):
-            clue = "A speaker in a high up place (but not the ceiling!)"
-        elif('diva thalia jubet' in name):
-            clue = "A fish tank?"
-        elif('docta thalia jubet' in name):
-            clue = "A dangerous place to retrieve ping pong balls"
-        elif('ne tibi difpliceat' in name):
-            clue = "This old communication method has recently been in high demand"
-        return render_template("christmas.html", clue = clue)
 
 if __name__ == '__main__':
         app.run(debug=True, port = 8000)
