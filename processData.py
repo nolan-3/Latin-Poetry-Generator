@@ -1,3 +1,5 @@
+# takes in code book lines separated by whitespace 
+# and return this desired output:
 table = [{'a': 7, 'b':5, 'c': 6}] #... 
 
 #returns the first non-space character in a string

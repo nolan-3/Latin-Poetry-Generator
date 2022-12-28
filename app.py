@@ -28,6 +28,11 @@ def about():
     if request.method == "POST":
         return redirect('/')
 
+@app.route('/higherLower', methods=["GET", "POST"])
+def higherLower():
+    if request.method == "GET":
+        return render_template("higherLower.html")
+
 
 if __name__ == '__main__':
         app.run(debug=True, port = 8000)
