@@ -1,35 +1,46 @@
 from higherLower import popularity
 import random
+
+# I should be able to remove these from the table then right?
 table = popularity.table
 
-def randomPair():
-    first = table[random.randint(1,997)]
-    second = table[random.randint(1,997)]
-    while first == second:
-            second = table[random.randint(1,997)]
-    return [first, second]
+class whyNecessary:
+    tableLen = 997
+
+obj = whyNecessary()
+
+def randomOption():
+    rand = random.randint(1,obj.tableLen)
+    option = table[rand]
+    #make sure we don't choose the same option again this game
+    del table[rand]
+    obj.tableLen -= 1
+    return option
 
 def check(guess, option1, option2):
-    print("check is called")
+
+    #print("check is called")
+    # the only time this should happen is when all 3 are null from a GET request
     if not guess:
-        print("guess is null")
-        return randomPair()
+        #print("guess is null")
+        return [randomOption(), randomOption()]
     if not option1:
-        print("option 1 is None")
-        return randomPair()
+        #print("option 1 is None")
+        return [randomOption(), randomOption()]
     if not option2:
-        print("option2 is null")
-        return randomPair()
+        #print("option2 is null")
+        return [randomOption(), randomOption()]
 
 
     if(option1[1] > option2[1]):
         correct = 'lower'
     elif(option1[1] < option2[1]):
         correct = 'higher'
+
     print("guess is " + guess)
     print("correct is " + correct)
+
     if guess == correct:
-        newOption = table[random.randint(1,997)]
-        while newOption == option2:
-            newOption = table[random.randint(1,997)]
-    return [True, newOption, option1]
+        return True
+    else:
+        return False
