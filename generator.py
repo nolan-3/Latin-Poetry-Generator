@@ -1,4 +1,4 @@
-from newFile import table
+from data import table
 import random
 import string
 
@@ -36,7 +36,11 @@ def generate(message):
         dictNum = charNum % numOfDicts
         #isalpha() isn't necessary but its a nice tool to have
         if char.isalpha() and ord(char) >= 97 and ord(char) <= 122:
-            halfLine = table[dictNum][char]
+            print(dictNum)
+            print(char)
+            print("table[-][dictNum]")
+            print(table[0][dictNum])
+            halfLine = table[0][dictNum][char][0]
             #print a new line if at the end of a line of latin
             if(endOfLine):
                 #print(halfLine)
@@ -52,5 +56,5 @@ def generate(message):
         dictNum = charNum % numOfDicts
         char = random.choice(string.ascii_letters).lower()
         char = checkLetter(char)
-        poem += table[dictNum][char]
+        poem += table[0][dictNum][char][0]
     return poem
