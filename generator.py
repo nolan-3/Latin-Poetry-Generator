@@ -21,7 +21,7 @@ def generate(message):
     #current index in the string (only counting letters)
     charNum = 0
     #number of dictionaries in the lookup table
-    numOfDicts = len(table)
+    numOfDicts = len(table[0])
 
     #eliminate letters not included in the table
     tempString = ''
