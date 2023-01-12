@@ -17,6 +17,7 @@ def checkLetter(letter):
 def generate(message):
     message = message.lower().strip()
     poem = ''
+    translation = ''
     endOfLine = False
     #current index in the string (only counting letters)
     charNum = 0
@@ -36,19 +37,23 @@ def generate(message):
         dictNum = charNum % numOfDicts
         #isalpha() isn't necessary but its a nice tool to have
         if char.isalpha() and ord(char) >= 97 and ord(char) <= 122:
-            print(dictNum)
-            print(char)
-            print("table[-][dictNum]")
-            print(table[0][dictNum])
-            halfLine = table[0][dictNum][char][0]
+            # print(dictNum)
+            # print(char)
+            # print("table[-][dictNum]")
+            # print(table[0][dictNum])
+
+            halfLine = table[dictNum][char][0]
+            print(halfLine)
+            halfEng = table[dictNum][char][1]
+            print(translation)
             #print a new line if at the end of a line of latin
             if(endOfLine):
-                #print(halfLine)
                 poem += halfLine + '\n'
+                translation += halfEng + '\n'
                 endOfLine = False
             else:
                 poem += halfLine + ' '
-                #print(halfLine + " ", end='')
+                translation += halfEng + ' '
                 endOfLine = True
             charNum += 1
     #make sure the final line is complete
@@ -56,5 +61,7 @@ def generate(message):
         dictNum = charNum % numOfDicts
         char = random.choice(string.ascii_letters).lower()
         char = checkLetter(char)
-        poem += table[0][dictNum][char][0]
-    return poem
+        poem += table[dictNum][char][0]
+        translation += table[dictNum][char][1]
+
+    return [poem,translation]

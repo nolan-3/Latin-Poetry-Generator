@@ -84,9 +84,6 @@
 "scribitur illa locis"
 "mittitur illa locis"
 "advenit illa locis"
-
-#split 1
-
 "devenit illa locis"
 "prodiit illa locis"
 "hanc tibi mitto locis"
@@ -179,9 +176,6 @@
 "non rapit illa tuas"
 "deperit ipsa tuas"
 "nam fovet ipsa tuas"
-
-#split 2
-
 "frangat ut illa tuas"
 "rumpat ut illa tuas"
 "pulset ut illa tuas"
@@ -269,9 +263,6 @@
 "Lux mea, dextra mihi"
 "gratia summa mihi"
 "perge manere, precor"
-
-#split 3
-
 "quod mihi nemo neget"
 "quis neget ista mihi?"
 "magne repende Deus!"
@@ -361,9 +352,6 @@
 "Quot tibi mentis opes!"
 "pectore fucus abest"
 "sidera mente geris"
-
-#split 4
-
 "fors bona semper amet!"
 "semper ad alta volas"
 "celsius ire nequis"

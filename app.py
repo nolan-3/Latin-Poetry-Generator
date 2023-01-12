@@ -16,7 +16,7 @@ def home():
 def poemDisplay():
     if request.method == "GET":
         poem = request.args.get('poem', None)
-        return render_template("poem.html", poem = generate(poem))
+        return render_template("poem.html", poem = generate(poem)[0], translation = generate(poem)[1])
     if request.method == "POST":
         return redirect('/')
 

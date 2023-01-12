@@ -84,9 +84,6 @@
 "It is written by the places"
 "It is sent by the places"
 "It arrives by the places"
-
-#split 1
-
 "It arrives by the places,"
 "It comes out by the places,"
 "I send this to you by the places,"
@@ -179,9 +176,6 @@
 "For it nurtures and cherishes yours,"
 "It breaks and shatters yours,"
 "It tears and bursts yours,"
-
-#split 2
-
 "Break it, that it may be yours"
 "Crush it, that it may be yours"
 "Pulse it, that it may be yours"
@@ -269,9 +263,6 @@
 "My light, my right hand"
 "greatest grace for me"
 "I beg you, please stay"
-
-# split 3
-
 "What no one denies me"
 "Who would deny me these things?"
 "Great God, repay!"
@@ -361,9 +352,6 @@
 "how many resources of mind you have!"
 "deceit is absent from your heart"
 "you bear the stars in your mind"
-
-#split 4
-
 "May good fortune always love you!"
 "You always aim for higher things"
 "No one can go higher"
@@ -378,4 +366,3 @@
 "Your only hope is God"
 "You have a brave mind"
 "How many dear gifts the gods give to you!"
-
