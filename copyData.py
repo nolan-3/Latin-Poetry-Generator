@@ -269,6 +269,9 @@
 "Lux mea, dextra mihi"
 "gratia summa mihi"
 "perge manere, precor"
+
+#split 3
+
 "quod mihi nemo neget"
 "quis neget ista mihi?"
 "magne repende Deus!"
@@ -358,6 +361,9 @@
 "Quot tibi mentis opes!"
 "pectore fucus abest"
 "sidera mente geris"
+
+#split 4
+
 "fors bona semper amet!"
 "semper ad alta volas"
 "celsius ire nequis"
