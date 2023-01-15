@@ -16,7 +16,10 @@ def home():
 def poemDisplay():
     if request.method == "GET":
         poem = request.args.get('poem', None)
-        return render_template("poem.html", poem = generate(poem)[0], translation = generate(poem)[1])
+        data = generate(poem)
+        poem = data[0]
+        translation = data[1]
+        return render_template("poem.html", poem = poem, translation = translation)
     if request.method == "POST":
         return redirect('/')
 
