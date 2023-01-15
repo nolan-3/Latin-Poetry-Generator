@@ -22,7 +22,8 @@ def generate(message):
     #current index in the string (only counting letters)
     charNum = 0
     #number of dictionaries in the lookup table
-    numOfDicts = len(table[0])
+    numOfDicts = len(table)
+    print(numOfDicts)
 
     #eliminate letters not included in the table
     tempString = ''
@@ -37,10 +38,6 @@ def generate(message):
         dictNum = charNum % numOfDicts
         #isalpha() isn't necessary but its a nice tool to have
         if char.isalpha() and ord(char) >= 97 and ord(char) <= 122:
-            # print(dictNum)
-            # print(char)
-            # print("table[-][dictNum]")
-            # print(table[0][dictNum])
 
             halfLine = table[dictNum][char][0]
             print(halfLine)
