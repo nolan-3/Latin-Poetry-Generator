@@ -1,6 +1,3 @@
-#each new line is an entry to the dicionary
-
-import csv
 table = [{'a': 7, 'b':5, 'c': 6}] #... 
 # csv file name
 filename = "rawData.csv"
