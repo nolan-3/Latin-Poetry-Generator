@@ -1,4 +1,5 @@
 # The table is an array of dictionaries of arrays
+# translation of individual half lines are rather useless, and not used
 
 table = [{"a":['Ne mora te teneat,', 'Do not let delay hold you,'],
 "b":['Ne cunctare precor,', 'Do not hesitate, I beg,'],
